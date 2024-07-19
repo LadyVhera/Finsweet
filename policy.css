@@ -1,0 +1,27 @@
+/* ==========Hero-Section========== */
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    background-color: var(--body-color);
+}
+
+.hero-section * {
+    margin-top: 10px;
+}
+
+/* ===========Policy-Section========== */
+.policy-content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.policy-content div {
+    line-height: var(--normalBody-line-height);
+    width: 800px;
+    padding: var(--body-padding);
+}
+
+.policy-details * {
+    margin-top: 20px;
+}

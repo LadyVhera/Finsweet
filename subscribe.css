@@ -1,0 +1,113 @@
+
+.container {
+    
+    padding: 50px 370px;
+}
+
+.hero-details {
+    text-align: center;
+}
+
+.hero-details * {
+    margin-top: 8px;
+}
+
+
+.bookings {
+    margin-top: 50px;
+}
+
+.hero-text{
+    color: var(--tag-color);
+}
+.booking-details {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--tag-color);
+    padding: 25px 33px;
+    color: var(--white);
+}
+
+.booking-details a {
+    color: var(--white);
+}
+
+.booking-details * {
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.text-label {
+    font-weight: lighter;
+    font-size: var(--small-font-size);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 200px;
+    background-color: var(--body-color);
+    opacity: 0.1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form * {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+form input, form textarea {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: black;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    color: black;
+}
+
+form a {
+    text-align: center;
+    font-size: 22px;
+}
+
+/* =================Media- Queries================ */
+/* ===============Max-Width 400px================= */
+@media(max-width: 400px) {
+    .container {
+        padding: var(--res-body-padding);
+    }
+
+    .booking-details {
+        display: block;
+
+    }
+}
+
+/* ===============Max-Width 800px============= */
+@media(max-width: 800px) {
+    .container {
+        padding: var(--res-body-padding);
+    }
+}
+
+/* =========Min-Width 801px and Max-Width========== */
+@media(min-width: 801px) and (max-width: 1024px) {
+    .container {
+        padding: 30px 200px;
+    }
+
+}
+
+/* =======Min-Width 801px and Max-Width============ */
+
+@media(min-width: 1025px) and (max-width: 1334px) {
+    .container {
+        padding: 30px 300px;
+    }
+}

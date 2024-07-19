@@ -1,0 +1,87 @@
+.container {
+  width: 70%;
+  margin: 80px auto;
+}
+
+.flex {
+  gap: 50px;
+  align-items: center;
+}
+
+.hero-section {
+  margin-bottom: 100px;
+}
+
+.hero-section * {
+  margin-top: 10px;
+}
+
+.social-images {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* =============Post-Section========== */
+.post-section {
+  margin-top: 100px;
+}
+
+.post-text * {
+  margin-top: 15px;
+}
+
+.post-box {
+  margin-top: 50px;
+}
+
+.hero-text {
+  color: var(--tag-color);
+}
+
+/* =================Media- Queries================ */
+/* ===============Max-Width 400px================= */
+@media (max-width: 400px) {
+  .flex {
+    display: block;
+  }
+
+  .hero-section {
+    margin-bottom: 60px;
+  }
+
+  .post-section {
+    margin-top: 60px;
+  }
+  
+}
+
+/* ===============Max-Width 800px============= */
+@media (max-width: 800px) {
+  .flex {
+    display: block;
+  }
+
+  .hero-section {
+    margin-bottom: 80px;
+  }
+
+  .post-section {
+    margin-top: 80px;
+  }
+}
+
+/* =========Min-Width 801px and Max-Width========== */
+@media (min-width: 801px) and (max-width: 1024px) {
+  .container {
+    width: 85%;
+  }
+}
+
+/* =======Min-Width 801px and Max-Width============ */
+
+@media (min-width: 1025px) and (max-width: 1334px) {
+  .container {
+    width: 90%;
+  }
+}

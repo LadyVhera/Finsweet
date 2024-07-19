@@ -1,0 +1,253 @@
+.hero {
+    background-color: var(--body-color-gray);
+    padding: var(--body-padding);
+}
+
+.hero-section {
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+    margin: 10px 0 20px 0;
+    font: var(--body-font);
+}
+
+.hero-details * {
+    margin-top: 16px;
+}
+
+.label {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-label);
+    line-height: var(--smallBody-line-height);
+    text-align: left;
+}
+
+/* ===========Blog-Post Section================ */
+.blog-section {
+    padding: var(--body-padding);
+}
+
+.blog-section * {
+    margin-top: 15px;
+}
+
+.blogs {
+    border-top: 0.1px solid #6262645d;
+}
+
+.blog-nav {
+    display: flex;
+    align-items: center;
+}
+
+.blog-nav-text {
+    justify-content: start;
+    padding: 0 60px 0 25px;
+}
+
+.tag {
+    font-weight: bold;
+    color: var(--tag-color);
+    letter-spacing: 2px;
+}
+
+.blog-slide {
+    text-align: center;
+}
+
+.blog-slide a {
+    padding: 10px;
+}
+
+.blog-slide a:first-child {
+    color: gray;
+}
+
+/* ==========Catagory Section=========== */
+.catagory-section {
+    padding: var(--body-padding);
+    margin-top: 20px;
+}
+
+.catagory-box {
+    outline: 2px solid rgb(250, 243, 243);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.catagory-box * {
+    margin-top: 15px;
+    line-height: var(--normalBody-line-height);
+}
+
+.catagory-section .flex {
+    gap: 2rem;
+}
+
+.catagory-box img {
+    background-color: rgb(250, 243, 243);
+    border-radius: 5px;
+}
+
+.spaced {
+    padding: 14px;
+}
+
+.flex .active {
+    background-color: var(--button-color);
+}
+
+/* =============Join-Team-Section============ */
+
+.join-team-section {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.join-team-box {
+    align-self: center;
+    width: 480px;
+    padding: var(--body-padding);
+}
+
+.join-team-box * {
+    margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+    .hero {
+        padding: var(--res-body-padding);
+    }
+
+    .hero-section {
+        display: block;
+    }
+
+    .hero-details * {
+        margin-top: 15px;
+    }
+
+    .hero-section img {
+        display: none;
+    }
+
+    /* ===========Blog-Post Section================ */
+    .blog-section {
+        padding: var(--res-body-padding);
+    }
+
+    .blog-nav {
+        display: block;
+        align-items: center;
+    }
+
+    .blog-nav {
+        margin-top: 60px;
+    }
+
+    .blog-nav-text {
+        padding: 0 !important;
+    }
+
+    .blog-nav-text * {
+        padding: 0 !important;
+    }
+
+    /* ==========Catagory Section=========== */
+    .catagory-section {
+        padding: var(--res-body-padding);
+    }
+
+    .catagory-box {
+        padding: 10px;
+        margin-top: 40px;
+    }
+
+    .catagory-section h2 {
+        text-align: start;
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 26px !important;
+        line-height: var(--h4-line-height) !important;
+    }
+
+    .hero-section {
+        display: block;
+    }
+
+    .hero-section img {
+        display: none;
+    }
+
+    /* ===========Blog-Post Section================ */
+    .blog-section {
+        padding: var(--res-body-padding);
+    }
+
+    .blog-section * {
+        margin-top: 10px;
+    }
+
+    .blog-nav {
+        display: block;
+        align-items: center;
+    }
+
+    .blog-nav {
+        margin-top: 50px;
+    }
+
+    .blog-nav-text {
+        padding: 0 40px 0 0px;
+    }
+
+    /* ==========Catagory Section=========== */
+    .catagory-section .flex,
+    .author-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+    }
+
+    .catagory-section h2 {
+        font-size: var(--h3-font-size);
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    /* h3 {
+        font-size: 20px !important;
+        line-height: 32px;
+    } */
+
+    h2 {
+        font-size: var(--h3-font-size);
+        line-height: var(--h4-line-height);
+    }
+
+    .blog-nav-text {
+        padding: 0px 0px 0 30px;
+    }
+
+    .blog-nav img {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1334px) {
+    h2 {
+        font-size: var(--h3-font-size);
+        line-height: var(--h3-line-height);
+    }
+
+    .blog-nav img {
+        width: 400px;
+    }
+}
