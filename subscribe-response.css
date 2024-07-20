@@ -1,20 +1,18 @@
-.backdrop-image{
+.backdrop-image {
     width: 50%;
     height: 250px;
     text-align: center;
-     background-image: radial-gradient(rgba(175, 3, 255, 0.896),var(--first-color)), url("./assert/joyful-lady.jpg");
+    background-image: radial-gradient(rgba(175, 3, 255, 0.896), var(--first-color)), url("./assert/joyful-lady.jpg");
     margin: auto;
     margin-top: 30px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-h2{
+h2 {
     color: var(--white);
     font-size: 42px;
     font-style: italic;
     display: inline-block;
     margin-top: 50px;
-        /* margin:  100px auto; */
-
 }
